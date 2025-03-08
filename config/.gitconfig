@@ -1,0 +1,5 @@
+[user]
+	email = dgarmier@ethz.ch
+	name = Dominque Garmier
+[core]
+	excludesFiles = ~/.gitignore
