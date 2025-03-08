@@ -39,6 +39,8 @@ RUN apt-get update && apt-get install -y \
 # python related deps
 RUN add-apt-repository ppa:deadsnakes/ppa
 RUN apt-get update && apt-get install -y \
+    python3-venv \
+    python3-pip \
     python3-virtualenv \
     python3.9 \
     python3.10 \ 
