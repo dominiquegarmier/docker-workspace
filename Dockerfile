@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     tmux \
     tree \
-    tzdata \ 
+    tzdata \
     unzip \
     wget \
     xclip \
