@@ -46,7 +46,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     python3-virtualenv \
     python3.9 \
-    python3.10 \ 
+    python3.10 \
     python3.11 \
     python3.12 \
     python3.13 \
