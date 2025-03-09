@@ -54,6 +54,7 @@ RUN apt-get update && apt-get install -y \
 
 # install uv
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
+ENV PATH="/root/.local/bin/:$PATH"
 
 RUN mkdir -p /root/TMP
 RUN cd /root/TMP && git clone https://github.com/neovim/neovim
